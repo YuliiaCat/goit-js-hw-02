@@ -2,7 +2,7 @@
 
 function checkForSpam(message) {
 
-  if (message.toLowerCase().includes('spam.toLowerCase()' || 'sale.toLowerCase()')) {
+  if (message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale')) {
     return true;
   }
 
